@@ -1,0 +1,1937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angular</title>
+  <!------Bootstrap CDN-->
+  <link rel="stylesheet" href="assets/library/css/bootstrap.css">
+  <!------Custom CSS------>
+  <link rel="stylesheet" href="assets/cs/main.css">
+  <!-------Bootstrap Icons--------->
+  <script src="assets/library/jquery/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">  <!------Google Fonts------>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito+Sans:ital,wght@0,200;0,300;0,600;1,200;1,300;1,400&display=swap"
+    rel="stylesheet">
+<!----jQuery Plugin-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!----jquery links-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <!---Font awsome Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <!----Typed JS Plugin-->
+
+  <script src="assets/library/TypedJS/typer.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-----AOS library-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+	
+
+</head>
+
+<body id="page-top" class="no-scroll-y">
+
+ 
+
+
+  <section>
+    <header>
+      <nav class="navbar navbar-expand-lg nav-down">
+<div class="container-fluid">
+          
+  <a class="ps-sm-2 ps-1" href="#">
+    <img src="assets/images/logo.png" alt="" class="img-fluid main-logo-img"> <span class="main-logo">
+     Future Optimization 
+     <span style="color:var(--bg-color)">Services </span>
+    </span>
+        
+     </a>
+
+
+
+          <a class="d-lg-none d-block" type="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+            aria-controls="offcanvasTop">
+
+            <div class="three col">
+              <div class="hamburger">
+
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </div>
+          </a>
+
+
+          <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel"
+            style="height:100vh; width:100%;">
+            <div class="offcanvas-header">
+
+              <a class="main-logo ps-md-5 ps-2" href="#">
+             <span class="logo4"></span> 
+             </a>
+              <button type="button" class="btn-close text-reset pe-5 pt-4" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body" style="margin:0px !important; padding:0px;">
+
+
+
+              <div class="d-lg-none d-block mt-3">
+
+
+
+                <button class="dropdown-btn pt-5" style="padding:0px 35px; font-size: 15px;">Tech Stack
+                  <i class="fa fa-caret-down"></i>
+                </button>
+
+
+
+
+
+                <div class="dropdown-container" style=" background-color: #f3f5fa; padding:20px 75px; margin-top:20px">
+                  <table class="table">
+                    
+                      <tr>
+
+                        <th scope="col" style="border:none;">Front-end</th>
+
+                      </tr>
+                    
+                    <tbody>
+                      <tr>
+
+                      <td style="border:none;"> <a href="angular.html">  Angular </a></td>
+                     </tr>
+                        <tr>
+                        <td style="border:none;"> <a href="react.html">React </a></td>
+
+                      </tr>
+                      <tr>
+
+                        <td style="border:none;"> <a href="angular.html"> Vue </a></td>
+
+                      </tr>
+
+
+                    
+                    
+                      <tr>
+
+                        <th scope="col" style="border:none;">
+                          <stronge>Back-end</stronge>
+                        </th>
+
+                      </tr>
+                    
+                    
+
+
+                      <tr>
+                        <td style="border:none;"> <a href="java.html"> Java </a></td></tr>
+                        <tr>
+                        <td style="border:none;"> <a href="net.html">NET</a></td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;"><a href="angular.html">PHP </a></td>
+                        </tr>
+                        <tr>
+                        <td style="border:none;"> <a href="python.html">Python</a></td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;"><a href="node.html"> Node </a></td></tr>
+                        <tr>
+                        <td style="border:none;"><a href="angular.html">Ruby</a></td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;"> <a href="golang.html"> Golang</a></td></tr>
+                        <tr>
+                        <td style="border:none;"><a href="rust.html">Rust</a></td>
+                      </tr>
+                      
+
+                </div>
+
+
+                </tbody>
+                </table>
+              </div>
+            
+
+             
+
+            <hr class="text-center mt-4" style="width:90%; margin:0 auto;opacity:0.1; ">
+
+            <button class="dropdown-btn mt-4" style="padding:0px 35px; font-size: 15px;">Services
+              <i class="fa fa-caret-down"></i>
+            </button>
+
+            <div class="dropdown-container" style="margin-top:20px !important; background-color: #f3f5fa; padding:20px 75px; height: 560px;">
+              
+              <table class="table">
+
+                <tr>
+
+
+                  <td style="border:none; font-weight: 600;">Mobile Development</td></tr>
+                  <tr>
+                  <td style="border:none;"> <a href="mobiledevelopment.html">Web Development</a></td>
+
+                </tr>
+                <tr>
+
+                  <td style="border:none;"><a href="crossplatform.html">Cross-Platform Development</a></td></tr>
+                  <tr>
+                  <td style="border:none;"><a href="cutomersoftware.html">Custom Softwear Development </a></td>
+
+                </tr>
+                <tr>
+
+                  <td style="border:none;"> <a href="staffaugmentation.html"></a>Staff Augmentation </a></td></tr>
+                  <tr>
+                  <td style="border:none;"><a href="manageddelivery.html">Managed Delivery </a></td>
+
+                </tr>
+                <tr>
+
+                  <td style="border:none;"> <a href="dedicated.html"></a>Dedicated Team </a></td></tr>
+                <tr>
+                  <td style="border:none;"><a href="uidesign.html">UI/UX Design </a></td>
+
+                </tr>
+                <tr>
+                  <td style="border:none; font-weight: 600;">Mobile</td>
+
+                </tr>
+                <tr>
+
+                  <td style="border:none;">Android</td></tr>
+                  <tr>
+                  <td style="border:none;">iOS</td>
+
+                </tr>
+                <tr>
+
+                  <td style="border:none;">React Native</td></tr>
+                <tr>
+                  <td style="border:none;">Flutter</td>
+
+                </tr>
+                
+                
+            
+
+                <tbody>
+
+
+              </table>
+            </div>
+
+
+
+
+            <hr class="text-center mt-4" style="width:90%; margin:0 auto;opacity:0.1; ">
+
+            <button class="dropdown-btn mt-4" style="padding:0px 35px; font-size: 15px;">Projects
+
+            </button>
+
+            <hr class="text-center mt-4" style="width:90%; margin:0 auto;opacity:0.1; ">
+
+            <button class="dropdown-btn mt-3" style="padding:0px 35px; font-size: 15px;">Pricing  
+
+            </button>
+
+            <hr class="text-center mt-4" style="width:90%; margin:0 auto;opacity:0.1; ">
+            <button class="dropdown-btn mt-4 mb-2" style="padding:0px 35px; font-size: 15px;">Company
+              <i class="fa fa-caret-down"></i>
+            </button>
+
+            <div class="dropdown-container" style="margin:0px !important; background-color: #f3f5fa; padding:10px 75px;">
+              <table class="table my-3">
+
+                <tr>
+
+
+                  <td style="border:none;">About us</td>
+                  </tr>
+                  
+                <tr>
+
+                  <td style="border:none;">Testimonials</td>
+                 
+
+                </tr>
+
+
+                <tbody>
+
+
+              </table>
+            </div>
+
+
+
+
+
+            <!-- <div class="" style="bottom:0px; position:absolute; padding:0 35%;">
+              
+                           <button class="main-btn px-3 py-2" type="button">Contact Us</button>
+
+            </div> -->
+
+          </div>
+
+
+
+
+
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+
+              <li class="nav-item dropdown firstelement">
+                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Tech Stack
+                </a>
+                <div class="dropdown-menu media1" aria-labelledby="navbarDropdownMenuLink"
+                  >
+                  <div class="container">
+                    <div class="row" style="width:900px;height:400px;">
+                      <div class="col-md-6 " style="background-color: #fafafa;">
+                        <h4 class="ps-5 pt-5 drop-menu">Tech Stack</h4>
+                        <p class="ps-5 pt-4" style="color:black;">Collaborate with Andersen’s IT experts to build
+                          outstanding custom software via an extensive selection of frameworks</p>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="container ">
+                          <div class="row pt-5 px-4">
+                            <div class="col-6 ps-5">
+                              <h6 class="drop-menu">FRONT-END </h6>
+                            <a href="angular.html">  <p class="text-dark drop-hover"> Angular</p>
+                            </a>
+                             <a href="react.html"> <p class="text-dark drop-hover"> React</p>
+                             </a>
+                           <a href="vue.html">   <p class="text-dark drop-hover"> Vue</p>
+                           </a>
+                            </div>
+                            <div class="col-6 ps-5">
+                              <h6 class="drop-menu">BACK-END </h6>
+                           <a href="java.html">   <p class="text-dark drop-hover"> Java</p>
+                           </a>
+                             <a href="net.html"> <p class="text-dark drop-hover"> .NET</p></a>
+                             <a href="php.html"> <p class="text-dark drop-hover"> PHP</p>
+                             </a>
+                             <a href="python.html"> <p class="text-dark drop-hover"> Phyton</p>
+                             </a>
+                             <a href="node.html"> <p class="text-dark drop-hover"> Node</p>
+                             </a>
+                             <a href="ruby.html"> <p class="text-dark drop-hover">Ruby</p>
+                             </a>
+                             <a href="golang.html"> <p class="text-dark drop-hover"> Golang</p>
+                             </a>
+                             <a href="rust.html"> <p class="text-dark drop-hover"> Rust</p>
+                             </a>
+
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+              </li>
+              
+              <li class="nav-item dropdown firstelement">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Services
+                </a>
+                <div class="dropdown-menu mediaa2" aria-labelledby="navbarDropdownMenuLink"
+                  style="">
+                  <div class="container">
+                    <div class="row" style="width:900px; height: 430px;">
+                      <div class="col-5 " style="background-color: #fafafa;">
+                        <h4 class="ps-5 pt-5 drop-menu " style="font-size: 25px;">Services</h4>
+                        <p class="ps-3 pt-3" style="color:black;">Benefit from our top-notch IT services to build
+                          efficient tailored-fit software with a high ROI</p>
+                      </div>
+                      <div class="col-md-7" >
+                        <div class="container" >
+                          <div class="row pt-5 ps-5">
+                            <div class="col-sm-8 col-12">
+
+                            <a href="mobiledevelopment.html">  <p class="drop-menu"> Mobile Development</p>
+                            </a> 
+                             <a href="webdevelopment.html"> <p class="text-dark drop-hover"> Web Development</p>
+                             </a>
+                             <a href="crossplatform.html"> <p class="text-dark drop-hover"> Cross-Platform Development</p>
+                             </a>
+                             <a href="customersoftware.html"> <p class="text-dark drop-hover">Custom Software Deveplopment</p>
+                             </a>
+                             <a href="staffaugmentation">
+                              <p class="text-dark drop-hover"> Staff Augmentation</p>
+                            </a>
+                             <a href="manageddelivery.html"> <p class="text-dark drop-hover"> Managed Delivery</p>
+                             </a>
+                             <a href="dedicated.html">
+                              <p class="text-dark drop-hover"> Dedicated Team</p>
+                            </a>
+                            <a href="uidesign.html">  
+                            <p class="text-dark drop-hover"> UI/UX Design</p>
+                          </a>
+                            </div>
+
+                            <div class="col-sm-4 col-12">
+                              <h6 class="drop-menu">Mobile </h6>
+                           <a href="andriod.html">   <p class="text-dark drop-hover"> Android</p>
+                           </a>
+                             <a href="ios.html"> <p class="text-dark drop-hover"> iOS</p>
+                             </a>
+                             <a href="reactnative.html"> <p class="text-dark drop-hover"> React Native</p>
+                             </a>
+                             <a href="flutter.html"> <p class="text-dark drop-hover"> Flutter</p>
+                             </a>
+                            </div>
+                            
+                          
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+              </li>
+              <li class="nav-item dropdown firstelement">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Company
+                </a>
+                <div class="dropdown-menu mediaa3" aria-labelledby="navbarDropdownMenuLink"
+                >
+                <div class="container">
+                  <div class="row" style="width:900px;height:300px;">
+                    <div class="col-md-7 " style="background-color: #fafafa;">
+                      <h4 class="ps-5 pt-5 drop-menu">Company</h4>
+                      <p class="ps-5 pt-3" style="color:black;">Futrure Optimization services is a software development company with a full cycle of services</p>
+                    </div>
+                    <div class="col-md-5 py-5 px-5">
+                      
+                            <p class="drop-menu">About Us</p>
+                   
+                            <a href="#testimonialss" > <p class="text-dark drop-hover">Testimonials</p> </a>
+ 
+                            
+                            
+
+                    
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+
+                <div class="vr" style="color:var(--text-color); height:30px;"></div>
+              </li>
+              <li class="nav-item">
+
+                <button class="btn header-btn pt-2">Pricing</button>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+     </div>
+      </nav>
+     
+
+
+
+      <div class="toggle"></div>
+    </header>
+   
+    <!-- <video src="assets/images/ships.webm" autoplay muted loop></video> -->
+    
+    
+  </section>
+  <!--------Second Nvbar ----->
+  
+  
+<section class="sectiontext2 pb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="nametext">Work with Top Angular Developers
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!---Section 2-->
+
+
+  <section class="mt-lg-3 mt-2">
+
+    <div class="container-lg" style="background-color: #fff;" >
+      <div class="row section2row1">
+        <div class="col-lg-9 pt-lg-4 pt-4" >
+
+          <h2 class="section2">Build best-in-class software solutions with our comprehensive and high-caliber Angular Development Services</h2>
+        </div>
+      </div>
+      <div class="row gy-2 section2row2">
+        <div class="col-md-4 col-sm-6" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+
+          <div class="py-sm-5 py-3 hovereffects" style="background-color: #f3f5fa; ">
+
+    
+
+              <p class="text-center" style="color:black; font-size: xx-large;"> <span class="counter">1000</span> +</p>
+              <p class="text-center " style="color:var(--text-color); font-size: 20px; font-weight: 600;"> successful project</p>
+          
+
+          </div>
+
+
+        </div>
+
+        <div class="col-md-4 col-sm-6"  data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0">
+          <div class="py-sm-5 py-3 hovereffects" style="background-color: #f3f5fa;">
+
+            <p class="text-center counter" style="color:var(--text-color); font-size: xx-large;"> 16</p>
+            <p class="text-center" style="color:var(--text-color); font-size: 20px; font-weight: 600;"> years in business</p>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-4 col-12"  data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500">
+          <div class="py-sm-5 py-3 hovereffects" style="background-color: #f3f5fa;">
+            <p class="text-center counter" style="color:black;font-size: xx-large;"> 3500</p>
+            <p class="text-center" style="color:var(--text-color); font-size: 20px; font-weight: 600;"> qualified specialist</p>
+          </div>
+
+        </div>
+      </div>
+      <hr>
+    </div>
+  </section>
+
+<!-----Section Technologies----->
+s
+<section class="mt-lg-3 mt-2">
+  <div class="container-lg pb-4" style="background-color: #fff;" data-aos="fade-up"
+  data-aos-anchor-placement="center-bottom">
+    <div class="row techrow1">
+      <div class="col-12">
+
+        <h2 class="theading">Outsource React development to Andersen</h2>
+      </div>
+    </div>
+    <div class="row techrow2">
+      <div class="col-12">
+
+      <p class="techpara">
+        Andersen, as a React development company, offers you top-notch React Development Services. Collaborating with us will provide you with outstanding, easy-to-use modern design combined with high performance.
+      </p>
+
+      </div>
+    </div>
+    <div class="row techbtnsrow">
+      <div class="col-xl-9 col-12 px-3">
+
+    <button class="tbtn1" type="button" id="tbtn1">Reactive Applications</button>
+    <button class="tbtn2 ms-lg-2" type="button" id="tbtn2">UI Components</button>
+    <button class="tbtn3 ms-lg-2" type="button" id="tbtn3">Testing</button>
+    <button class="tbtn4 ms-lg-2 mt-lg-0 mt-2" type="button" id="tbtn4">Data Visualization</button>
+   </div>
+</div>
+    
+    
+     <div class="row trow1" id="trow1">
+  <div class="container testimo">
+   
+  
+    <div class="items">
+      <div class="entry rxjs">
+       
+        <img class="images" src="assets/images/rx-js.svg" style="width:50px; height:50px;" class="img-fluid" alt="Smiling person" />
+       
+      </div>
+      <div class="entry ngrx">
+
+        <img class="images" src="assets/images/ng-rx.svg" class="img-fluid" alt="Smiling person" />
+        
+      </div>
+      <div class="entry akita">
+
+        <img class="images" src="assets/images/akita.svg" class="img-fluid" alt="Smiling person" />
+        
+      </div>
+      <div class="entry rxangular">
+       
+        <img class="images" src="assets/images/rx-angular.svg" class="img-fluid" alt="Smiling person" />
+        
+      </div>
+      <div class="entry ngxs">
+      
+        <img class="images" src="assets/images/ng-xs.svg" class="img-fluid" alt="Smiling person" />
+        
+      </div>
+      
+    
+     
+    </div>
+  </div>
+</div> 
+<div class="row px-md-5 px-1 trow2" id="trow2">
+  <div class="container testimo">
+   
+  
+    <div class="items">
+      <div class="entry angularmaterial">
+       
+        <img class="images pt-2" src="assets/images/angular-material.svg" class="img-fluid" alt="Smiling person" />
+        
+       
+      </div>
+      <div class="entry ngbootstrap">
+
+        <img class="images" src="assets/images/ng-bootstrap.svg" class="img-fluid" alt="Smiling person" />
+        
+      </div>
+      
+      <div class="entry primeng">
+   
+        <img class="images" src="assets/images/prime-ng.svg" class="img-fluid" alt="Smiling person" />
+        
+      </div>
+
+      <div class="entry antdesign">
+   
+        <img class="images" src="assets/images/ant-design.svg" class="img-fluid" alt="Smiling person" />
+        
+      </div>
+
+      <div class="entry kendoui">
+   
+        <img class="images" src="assets/images/kendo-ui.svg" class="img-fluid" alt="Smiling person" />
+        
+      </div>
+    
+     
+    </div>
+  </div>
+</div> 
+
+<div class="row px-md-5 px-1 trow3" id="trow3">
+  <div class="container testimo">
+   
+  
+    <div class="items">
+      
+      <div class="entry jasmine">
+       
+        <img class="images pt-3" src="assets/images/jasmine.svg" class="img-fluid" alt="Smiling person" style="width:70px; height: 70px;" />
+        
+      </div>
+      
+      <div class="entry jest">
+       
+        <img class="images pt-3" src="assets/images/jest.svg" class="img-fluid" alt="Smiling person" />
+        
+      </div>
+      
+      <div class="entry spectator">
+       
+        <img class="images" src="assets/images/spectator.svg" class="img-fluid" alt="Smiling person" />
+        
+        
+      </div>
+      <div class="entry protractor">
+      
+        <img class="images" src="assets/images/protractor.svg" class="img-fluid" alt="Smiling person" style="width:60px; height: 60px;" />
+        
+      </div>
+      <div class="entry cypress">
+    
+        <img class="images" src="assets/images/cypress.svg" class="img-fluid" alt="Smiling person" />
+        
+      
+     
+    </div>
+  </div>
+</div> 
+</div>
+<div class="row px-md-5 px-1 trow4" id="trow4">
+  <div class="container testimo">
+   
+  
+    <div class="items">
+      <div class="entry d3">
+       
+        <img class="imagess" src="assets/images/d3.svg" class="img-fluid" alt="Smiling person" />
+      
+      </div>
+      <div class="entry apacheecharts">
+
+        <img class="images" src="assets/images/apche-echarts.svg" class="img-fluid" alt="Smiling person" />
+        
+      </div>
+      <div class="entry googlecharts">
+
+        <img class="images" src="assets/images/google-charts.svg" class="img-fluid" alt="Smiling person" />
+        
+      </div>
+      <div class="entry aggrid">
+       
+        <img class="images" src="assets/images/ag-grid.svg" class="img-fluid" alt="Smiling person" />
+        
+      </div>
+      <div class="entry highcharts">
+      
+        <img class="images" src="assets/images/highcharts.svg" class="img-fluid" alt="Smiling person" />
+        
+      
+    
+     
+    </div>
+  </div>
+</div> 
+
+</div>
+</section>
+
+
+
+  <section class="mt-lg-4 mt-3">
+
+    <div class="container-lg" style="background-color: #fff;" >
+      <div class="row section2row1">
+        <div class="col-lg-9 pt-lg-4 pt-4" >
+
+          <h2 class="section2">Andersen's Angular software development services</h2>
+        </div>
+      </div>
+      <div class="row gy-2 section2row2">
+        <div class="col-md-4 col-sm-6" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+        <div class="animate">
+          <div class="f1"> 
+            <p class="px-sm-5 py-sm-5 px-4 py-4"style="color:var(--text-color); font-size: 25px; font-weight: 500; ">Front-end Development</p>
+          </div>
+          <div class="f2"> 
+         
+              <p class="px-sm-3 px-lg-3 py-sm-3 px-3 py-3" style="color:var(--text-color); font-size: 16px; font-weight: 400;">If you want to build a mobile or web application, Andersen, as a top-rated Angular Development company, will help you create outstanding solutions.</p>  
+         </div>
+        </div>
+      </div>
+              
+              
+      
+      
+      
+      
+        <div class="col-md-4 col-sm-6"  data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0">
+        <div class="animate2">
+          
+          <div class="f3">
+            
+            
+            
+            <p class="px-sm-5 py-sm-5 px-4 py-4" style="color:var(--text-color); font-size: 25px; font-weight: 500;"> Front-end Development</p>
+            
+            
+          </div>
+          <div class="f4">
+            
+            
+            
+
+            <p class="px-sm-3 px-lg-3 py-sm-3 px-3 py-3" style="color:var(--text-color); font-size: 16px; font-weight: 400;">If you run an enterprise, you need proper solutions to process data and make the right decisions. Our Angular developers are ready to engineer them for you.</p>
+            
+            
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-4 col-sm-6"  data-aos="fade-left"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="500"
+      data-aos-duration="500">
+      <div class="animate3">
+        
+        <div class="f5">
+          
+          
+          
+          <p class="px-sm-5 py-sm-5 px-4 py-4" style="color:var(--text-color); font-size: 25px; font-weight: 500;"> Front-end Development</p>
+          
+            
+          </div>
+          <div class="f6">
+            
+            
+            
+            
+            <p class="px-sm-3 px-lg-2 py-sm-3 px-3 py-3" style="color:var(--text-color); font-size: 16px; font-weight: 400;">Andersen's Angular Development team and expertise allow us to provide cost-effective progressive apps fulfilling multiple purposes for numerous industries.</p>
+            
+            
+          </div>
+        </div>
+
+      </div>
+   
+   
+      <div class="col-md-4 col-sm-6" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+        <div class="animate4">
+
+          <div class="f7">
+            
+            
+            
+            <p class="px-sm-5 py-sm-5 px-4 py-4"style="color:var(--text-color); font-size: 25px; font-weight: 500;">Front-end Development</p>
+            
+            
+          </div>
+          <div class="f8">
+            
+            
+            
+            
+            <p class="px-sm-3 px-lg-2 py-sm-3 px-3 py-3" style="color:var(--text-color); font-size: 16px; font-weight: 400;">Do you need to secure a proper transition of your legacy systems to Angular to use the new tools it provides? Contact us for Angular support.tools it provides? Contact us for Angular support.</p>
+            
+            
+          </div>
+        </div>
+        
+
+
+        </div>
+
+        <div class="col-md-4 col-sm-6"  data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0">
+        <div class="animate5">
+
+          <div class="f9">
+            
+            
+            
+            <p class="px-sm-5 py-sm-5 px-4 py-4" style="color:var(--text-color); font-size: 25px; font-weight: 500;">Front-end Development</p>
+            
+            
+          </div>
+          <div class="f10">
+            
+            
+            
+            
+            <p class="px-sm-3 px-lg-2 py-sm-3 px-3 py-3" style="color:var(--text-color); font-size: 16px; font-weight: 400;">Do you need to secure a proper transition of your legacy systems to Angular to use the new tools it provides? Contact us for Angular support.tools it provides? Contact us for Angular support.</p>
+            
+            
+          </div>
+        </div>
+        </div>
+
+
+
+        <div class="col-md-4 col-sm-6"  data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500">
+        <div class="animate6">
+
+          <div class="f11">
+            
+            
+            
+            <p class="px-sm-5 py-sm-5 px-4 py-4" style="color:var(--text-color); font-size: 25px; font-weight: 500;">Front-end Development</p>
+            
+            
+          </div>
+          <div class="f12">
+            
+            
+            
+            
+            <p class="px-sm-3 px-lg-2 py-sm-3 px-3 py-3" style="color:var(--text-color); font-size: 16px; font-weight: 400;">If you are pondering the potential of Angular right now, we will be happy to provide you with access to our expertise and ensure Angular Development practices.</p>
+            
+            
+          </div>
+        </div>
+
+        </div>
+    </div>
+    
+    
+   
+     
+    
+      <hr>
+    </div>
+  </section>
+ 
+  
+
+
+
+
+  <section class="mt-lg-3 mt-2">
+
+    <div class="container-lg main-teamsection" 
+    data-aos-anchor-placement="top-bottom" style="background-color:#f3f5fa">
+      <div class="row testimonial">
+      <div class="col-lg-8">
+        <div class="py-md-5 py-3s px-md-5 px-2">
+      <h2 class="teamexpert">Andersen’s Vue deveplopment experts</h2>
+  <p style="color:black; font-weight:400;font-size: 18px;">
+    Finding the best-matching CVs of Vue developers is never a problem with Andersen.
+  </p>
+</div>
+      </div>
+    </div>
+
+    <div class="row testimonial2  pb-lg-5 teamrow1">
+      <div class="col-12">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators d-sm-none d-block carouselbottom" >
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" class="bg-dark" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" class="bg-dark" aria-label="Slide 3"></button>
+          </div>
+    
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-lg">
+                <div class="row">
+                  <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="p-4" style="background-color: #fff;">
+    
+                      <div class="d-flex py-3 px-2">
+                        <img src="assets/images/team1.png" alt="" class="img-fluid" style="width:80px;">
+                      <h4 class="teamname1 ps-3">Sameer.</h4>
+                      <p></p>
+                    </div>
+                    <h6 class="py-3 px-2" style="font-weight: bold;">SUMMARY</h6>
+                    <p class="px-2" style="color:grey;">Front-end engineers with 6 years experience in enterprise-level web and mobile software development </p>
+                    <div>
+    
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Javascript</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">React Js</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Jquery</p>
+                    </div>
+    
+                  </div>
+                </div>
+    
+                  <div class="col-lg-4 col-sm-6 d-sm-block d-none">
+                    <div class="p-4" style="background-color: #fff;">
+    
+                      <div class="d-flex py-3 px-2">
+                        <img src="assets/images/team1.png" alt="" class="img-fluid" style="width:80px;">
+                      <h4 class="teamname1 ps-3">Alex Z.</h4>
+                      <p></p>
+                    </div>
+                    <h6 class="py-3 px-2" style="font-weight: bold;">SUMMARY</h6>
+                    <p class="px-2" style="color:grey;">Front-end engineers with 6 years experience in enterprise-level web and mobile software development </p>
+                    <div>
+    
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Javascript</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">React Js</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Jquery</p>
+                    </div>
+    
+                  </div>
+                  </div>
+                  <div class="col-lg-4 d-lg-block d-none">
+                    <div class="p-4" style="background-color: #fff;">
+    
+                      <div class="d-flex py-3 px-2">
+                        <img src="assets/images/team1.png" alt="" class="img-fluid" style="width:80px;">
+                      <h4 class="teamname1 ps-3">Alex Z.</h4>
+                      <p></p>
+                    </div>
+                    <h6 class="py-3 px-2" style="font-weight: bold;">SUMMARY</h6>
+                    <p class="px-2" style="color:grey;">Front-end engineers with 6 years experience in enterprise-level web and mobile software development </p>
+                    <div>
+    
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Javascript</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">React Js</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Jquery</p>
+                    </div>
+    
+                  </div>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div class="container-lg">
+                <div class="row">
+                  <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="p-4" style="background-color: #fff;">
+    
+                      <div class="d-flex py-3 px-2">
+                        <img src="assets/images/team1.png" alt="" class="img-fluid" style="width:80px;">
+                      <h4 class="teamname1 ps-3">Alex Z.</h4>
+                      <p></p>
+                    </div>
+                    <h6 class="py-3 px-2" style="font-weight: bold;">SUMMARY</h6>
+                    <p class="px-2" style="color:grey;">Front-end engineers with 6 years experience in enterprise-level web and mobile software development </p>
+                    <div>
+    
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Javascript</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">React Js</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Jquery</p>
+                    </div>
+    
+                  </div>
+                </div>
+    
+                  <div class="col-lg-4 col-sm-6 d-sm-block d-none">
+                    <div class="p-4" style="background-color: #fff;">
+    
+                      <div class="d-flex py-3 px-2">
+                        <img src="assets/images/team1.png" alt="" class="img-fluid" style="width:80px;">
+                      <h4 class="teamname1 ps-3">Alex Z.</h4>
+                      <p></p>
+                    </div>
+                    <h6 class="py-3 px-2" style="font-weight: bold;">SUMMARY</h6>
+                    <p class="px-2" style="color:grey;">Front-end engineers with 6 years experience in enterprise-level web and mobile software development </p>
+                    <div>
+    
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Javascript</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">React Js</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Jquery</p>
+                    </div>
+    
+                  </div>
+                  </div>
+                  <div class="col-lg-4 d-lg-block d-none">
+                    <div class="p-4" style="background-color: #fff;">
+    
+                      <div class="d-flex py-3 px-2">
+                        <img src="assets/images/team1.png" alt="" class="img-fluid" style="width:80px;">
+                      <h4 class="teamname1 ps-3">Alex Z.</h4>
+                      <p></p>
+                    </div>
+                    <h6 class="py-3 px-2" style="font-weight: bold;">SUMMARY</h6>
+                    <p class="px-2" style="color:grey;">Front-end engineers with 6 years experience in enterprise-level web and mobile software development </p>
+                    <div>
+    
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Javascript</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">React Js</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Jquery</p>
+                    </div>
+    
+                  </div>
+                  </div>
+                </div>
+              </div>
+                      </div>
+            <div class="carousel-item " >
+              <div class="container-lg">
+                <div class="row">
+                  <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="p-4" style="background-color: #fff;">
+    
+                      <div class="d-flex py-3 px-2">
+                        <img src="assets/images/team1.png" alt="" class="img-fluid" style="width:80px;">
+                      <h4 class="teamname1 ps-3">Alex Z.</h4>
+                      <p></p>
+                    </div>
+                    <h6 class="py-3 px-2" style="font-weight: bold;">SUMMARY</h6>
+                    <p class="px-2" style="color:grey;">Front-end engineers with 6 years experience in enterprise-level web and mobile software development </p>
+                    <div>
+    
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Javascript</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">React Js</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Jquery</p>
+                    </div>
+    
+                  </div>
+                </div>
+    
+                  <div class="col-lg-4 col-sm-6 d-sm-block d-none">
+                    <div class="p-4" style="background-color: #fff;">
+    
+                      <div class="d-flex py-3 px-2">
+                        <img src="assets/images/team1.png" alt="" class="img-fluid" style="width:80px;">
+                      <h4 class="teamname1 ps-3">Alex Z.</h4>
+                      <p></p>
+                    </div>
+                    <h6 class="py-3 px-2" style="font-weight: bold;">SUMMARY</h6>
+                    <p class="px-2" style="color:grey;">Front-end engineers with 6 years experience in enterprise-level web and mobile software development </p>
+                    <div>
+    
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Javascript</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">React Js</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Jquery</p>
+                    </div>
+    
+                  </div>
+                  </div>
+                  <div class="col-lg-4 d-lg-block d-none">
+                    <div class="p-4" style="background-color: #fff;">
+    
+                      <div class="d-flex py-3 px-2">
+                        <img src="assets/images/team1.png" alt="" class="img-fluid" style="width:80px;">
+                      <h4 class="teamname1 ps-3">Alex Z.</h4>
+                      <p></p>
+                    </div>
+                    <h6 class="py-3 px-2" style="font-weight: bold;">SUMMARY</h6>
+                    <p class="px-2" style="color:grey;">Front-end engineers with 6 years experience in enterprise-level web and mobile software development </p>
+                    <div>
+    
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Javascript</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">React Js</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Angular</p>
+                      <p class="btn btn-primary bg-light" style="color:black; border-radius:20px;border:none;">Jquery</p>
+                    </div>
+    
+                  </div>
+                  </div>
+                </div>
+              </div>
+                        </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="visibility: hidden;"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next" style="visibility: hidden;">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    
+    </div>
+    
+    
+    </div>
+    </div>
+    </section>
+
+
+<!----  section 4  Projects------>
+
+<!----  section 4  Projects------>
+
+
+<section class="mt-lg-5">
+
+  <div class="container-lg" >
+   <div class="row section4row1">
+     <div class="col-12" >
+ 
+       <h2 class="section4heading1" id="projects">Top Companies rely on Futrue Optimization Services</h2>
+      </a>
+     </div>
+   </div>
+   <div class="row section4row2" >
+     <div class="col-12">
+ 
+       <h2 class="section4heading2">Latest projects</h4>
+     </div>
+   </div>
+   <div class="row section4row3">
+     <div class="col-lg-12  pt-2" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+     <div class="firstprojectimage">
+    
+     </div>
+     
+       
+     </div>
+    
+     
+     </div>
+     
+     <div class="row section4row4"> 
+       <div class="col-md-8 col-12 pt-4" data-aos="fade-up"
+       data-aos-anchor-placement="top-bottom">
+         <p style="color:var(--text-color);">The British-German travel company that is headquartered in Germany. The company is one of the largest in the world.</p>
+         <p style="color:var(--text-color);"><u>Read Refernces</u><i class="bi bi-arrow-right ms-2"></i></p>
+       </div>
+       <div class="col-md-4 col-12">
+         <div class="pt-md-4 pt-1">
+ 
+           <p class="btn btn-primary bg-light" style="color:black;border-radius:20px; border:none;">7 specialist</button>
+             <p class="btn btn-primary bg-light ms-sm-3 ms-1" style="color:black; border-radius:20px;border:none;">22 months</p>
+             </div>
+         
+       </div>
+     </div>
+ 
+ 
+   </div>
+ 
+   <div class="container-lg">
+     <div class="row section4row5 gy-2">
+       <div class="col-lg-4 col-md-6 col-12" >
+ 
+         <div class="card pb-4" >
+           <div class="card1 card-img cardss">
+
+           </div>
+ 
+           <div class="card-body">
+             
+             <p class="card-text" style="color:black;">
+               A platform for monitoring existing offers at the request of a client, which allows users to choose the best deal.
+             </p>
+             <p style="color:black;"><u>Read Refernces</u><i class="bi bi-arrow-right ms-2"></i></p>
+             <p class="btn btn-primary bg-light" style="color:black;border-radius:20px; border:none;">7 specialist</button>
+               <p class="btn btn-primary bg-light ms-3" style="color:black; border-radius:20px;border:none;">22 months</button>
+           </div>
+         </div>
+       </div>
+       
+       <div class="col-lg-4 col-md-6">
+         <div class="card pb-4" >
+           <div class="card2 card-img cardss">
+ 
+           </div>
+          
+ 
+           <div class="card-body">
+             
+             <p class="card-text" style="color:black;">
+               A platform for monitoring existing offers at the request of a client, which allows users to choose the best deal.
+             </p>
+             <p style="color:black;"><u>Read Refernces</u><i class="bi bi-arrow-right ms-2"></i></p>
+             <p class="btn btn-primary bg-light" style="color:black;border-radius:20px; border:none;">7 specialist</button>
+               <p class="btn btn-primary bg-light ms-3" style="color:black; border-radius:20px;border:none;">22 months</button>
+           </div>
+         </div>
+       </div>
+       
+       <div class="col-lg-4 col-md-6 col-12">
+         <div class="card pb-4" >
+           <div class="card3 card-img cardss">
+ 
+           </div>
+          
+ 
+           <div class="card-body">
+             
+             <p class="card-text" style="color:black;">
+               A platform for monitoring existing offers at the request of a client, which allows users to choose the best deal.
+             </p>
+             <p style="color:black;"><u>Read Refernces</u><i class="bi bi-arrow-right ms-2"></i></p>
+             <p class="btn btn-primary bg-light" style="color:black;border-radius:20px; border:none;">7 specialist</button>
+               <p class="btn btn-primary bg-light ms-3" style="color:black; border-radius:20px;border:none;">22 months</p>
+           </div>
+         </div>
+       </div>
+ 
+       <div class="col-lg-4 col-md-6 d-lg-none d-block col-12">
+         <div class="card pb-4" >
+           <div class="card4 card-img">
+ 
+           </div>
+          
+ 
+           <div class="card-body">
+             
+             <p class="card-text" style="color:black;">
+               A platform for monitoring existing offers at the request of a client, which allows users to choose the best deal.
+             </p>
+             <p style="color:black;"><u>Read Refernces</u><i class="bi bi-arrow-right ms-2"></i></p>
+             <p class="btn btn-primary bg-light" style="color:black;border-radius:20px; border:none;">7 specialist</button>
+               <p class="btn btn-primary bg-light ms-3" style="color:black; border-radius:20px;border:none;">22 months</p>
+           </div>
+         </div>
+       </div>
+ 
+ 
+     </div>
+   </div>
+ 
+ 
+ </section>
+
+
+ <!--------Testimonial Section ------>
+<section>
+
+  <div class="container-lg mt-3" style="background-color: #fff;" data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom">
+    <div class="row testimonial">
+    <div class="col-lg-8">
+    <h2 style="font-weight: 700;" id="testimonialss">Testimonials</h2>
+<p style="color:black;">
+  SMB, enterprise, and startup customers return to our custom software company because they’re happy with our work. Here is what they say about Andersen.
+</p>
+    </div>
+  </div>
+  <div class="row testimonial2 pb-md-3 pb-lg-5 ">
+    <div class="col-12 ">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators indicator1">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="container-fluid">
+              <div class="row pb-4 pb-sm-4 pb-md-4">
+                <div class="col-lg-6 col-12 " style="background-color: #fafafa;">
+               <div class="px-lg-4 py-lg-4 py-md-3 px-md-3 px-sm-2 py-sm-2 px-2 py-3 pb-4 pb-sm-3 pb-lg-5 ">
+
+                 <h4 class="headingt1 pt-2 pt-sm-2">
+                   "We are Happy to found a compter partner for our development projects in Aderson"
+                  </h4>
+                  <p class="paragrapht1 pt-3 pt-sm-2 pt-md-3 pb-md-2" style="color:var(--text-color);">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus corporis adipisci, sequi natus amet accusamus similique inventore, odit nam facilis magnam rem provident, soluta ducimus laudantium aut quo aut quo. 
+                </p>
+                <div>
+                  <img src="assets/images/t1.png" alt="" class="img-fluid pict1">
+                  <span class="namet1">Product Owner at FTI</span>
+                </div>
+              </div>
+            
+            </div>
+              <div class="col-lg-6 d-lg-block d-none p-4">
+                  <h6 style="font-weight: 800;">COUNTRY</h6>
+                  <img src="assets/images/t1.1.svg" alt="" class="img-fluid" style="width:25px; height:20px;">
+                  <span style="color:grey;">USA</span>
+                  <h6 class="pt-3" style="font-weight: 800;">PROJECT SUMMARY</h6>
+                  <p style="color:grey;">Mobile App Dev for lundary payment hardware company</p>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        
+                        <th scope="col">INDUSTRY</th>
+                        <th scope="col">TEAM SIZE</th>
+                        <th scope="col">DURATION</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        
+                  
+                        <td>Healthcare</td>
+                        <td>2 specialist</td>
+                        <td>15 Months</td>
+                      </tr>
+                     
+                     
+                    </tbody>
+                  </table>
+                  <h6 style="font-weight: 800;">TECHNOLOGIES</h6>
+                  <p style="color:grey;">Node Js / React.Js / Javascript</p>
+                  
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+         
+          <div class="carousel-item" data-bs-interval="20000">
+            <div class="container-fluid">
+              <div class="row pb-4 pb-sm-4 pb-md-4">
+                <div class="col-lg-6 col-12 " style="background-color: #fafafa;">
+               <div class="px-lg-4 py-lg-4 py-md-3 px-md-3 px-sm-2 py-sm-2 px-2 py-3 pb-4 pb-sm-3 pb-lg-5 ">
+
+                 <h4 class="headingt1 pt-2 pt-sm-2">
+                   "We are Happy to found a compter partner for our development projects in Aderson"
+                  </h4>
+                  <p class="paragrapht1 pt-3 pt-sm-2 pt-md-3 pb-md-2" style="color:var(--text-color);">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus corporis adipisci, sequi natus amet accusamus similique inventore, odit nam facilis magnam rem provident, soluta ducimus laudantium aut quo aut quo. 
+                </p>
+                <div>
+                  <img src="assets/images/t1.png" alt="" class="img-fluid pict1">
+                  <span class="namet1">Product Owner at FTI</span>
+                </div>
+              </div>
+            
+            </div>
+              <div class="col-lg-6 d-lg-block d-none p-4">
+                  <h6 style="font-weight: 800;">COUNTRY</h6>
+                  <img src="assets/images/t1.1.svg" alt="" class="img-fluid" style="width:25px; height:20px;">
+                  <span style="color:grey;">USA</span>
+                  <h6 class="pt-3" style="font-weight: 800;">PROJECT SUMMARY</h6>
+                  <p style="color:grey;">Mobile App Dev for lundary payment hardware company</p>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        
+                        <th scope="col">INDUSTRY</th>
+                        <th scope="col">TEAM SIZE</th>
+                        <th scope="col">DURATION</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        
+                  
+                        <td>Healthcare</td>
+                        <td>2 specialist</td>
+                        <td>15 Months</td>
+                      </tr>
+                     
+                     
+                    </tbody>
+                  </table>
+                  <h6 style="font-weight: 800;">TECHNOLOGIES</h6>
+                  <p style="color:grey;">Node Js / React.Js / Javascript</p>
+                  
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+
+          <div class="carousel-item" data-bs-interval="20000">
+            <div class="container-fluid">
+              <div class="row pb-4 pb-sm-4 pb-md-4">
+                <div class="col-lg-6 col-12 " style="background-color: #fafafa;">
+               <div class="px-lg-4 py-lg-4 py-md-3 px-md-3 px-sm-2 py-sm-2 px-2 py-3 pb-4 pb-sm-3 pb-lg-5 ">
+
+                 <h4 class="headingt1 pt-2 pt-sm-2">
+                   "We are Happy to found a compter partner for our development projects in Aderson"
+                  </h4>
+                  <p class="paragrapht1 pt-3 pt-sm-2 pt-md-3 pb-md-2" style="color:var(--text-color);">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus corporis adipisci, sequi natus amet accusamus similique inventore, odit nam facilis magnam rem provident, soluta ducimus laudantium aut quo aut quo. 
+                </p>
+                <div>
+                  <img src="assets/images/t1.png" alt="" class="img-fluid pict1">
+                  <span class="namet1">Product Owner at FTI</span>
+                </div>
+              </div>
+            
+            </div>
+              <div class="col-lg-6 d-lg-block d-none p-4">
+                  <h6 style="font-weight: 800;">COUNTRY</h6>
+                  <img src="assets/images/t1.1.svg" alt="" class="img-fluid" style="width:25px; height:20px;">
+                  <span style="color:grey;">USA</span>
+                  <h6 class="pt-3" style="font-weight: 800;">PROJECT SUMMARY</h6>
+                  <p style="color:grey;">Mobile App Dev for lundary payment hardware company</p>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        
+                        <th scope="col">INDUSTRY</th>
+                        <th scope="col">TEAM SIZE</th>
+                        <th scope="col">DURATION</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        
+                  
+                        <td>Healthcare</td>
+                        <td>2 specialist</td>
+                        <td>15 Months</td>
+                      </tr>
+                     
+                     
+                    </tbody>
+                  </table>
+                  <h6 style="font-weight: 800;">TECHNOLOGIES</h6>
+                  <p style="color:grey;">Node Js / React.Js / Javascript</p>
+                  
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev" style="visibility: hidden;">
+          <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden" >Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next" style="visibility: hidden;">
+          <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden" >Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+</section>
+
+<!----IT Consultaion form -->
+<section class="mt-lg-3 mt-2">
+  <div class="container-lg" style="background-color: #fff;">
+    <div class="row formrow1">
+      <div class="col-lg-5">
+        <h4 class="itheading">Request a free IT consultation</h4>
+        <p class="itpara">
+          Fill out the form below to receive a free consultation and find out how Andersen can help your business grow.
+        </p>
+        <div class="d-lg-block d-none">
+
+          <p class="itpara">What happens next?</p>
+          <div class="d-flex itbottom">
+          <div class="counters">
+            1
+          </div>
+          <div class="ps-4">
+            
+            
+            An expert contacts you shortly after having analyzed your business 
+          </div>
+          
+        </div>
+        <div class="d-flex itbottom pt-2">
+          <div class="counters">
+            2
+          </div>
+          <div class="ps-4">
+            
+            
+            If required, we sign an NDA to ensure the highest privacy level;
+          </div>
+          
+        </div>
+        <div class="d-flex itbottom pt-2">
+          <div class="counters">
+            3
+          </div>
+          <div class="ps-4">
+            
+            
+            A Pre-Sales Manager submits a comprehensive project proposal. It may include estimates, timelines, lists of CVs, etc., for a particular situation.
+          </div>
+        </div>
+          
+        </div>
+        
+
+      </div>
+      <div class="col-lg-7 ps-lg-5">
+        <form class="row g-3">
+          <div class="col-12">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select Your Industry</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Name</label>
+            <input type="text" class="form-control" aria-label="First name">
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Corporate E-mail</label>
+            <input type="email" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label  class="form-label">Phone</label>
+            <input type="phone" class="form-control" >
+          </div>
+          <div class="col-12">
+            
+           
+              <label for="exampleFormControlTextarea1" class="form-label">Describe Your Project</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+               
+            </div>
+         
+          
+            <div class="col-sm-4 col-12">
+              <button class="main-btn" type="submit">Send Request</button>
+            </div>
+          <div class="col-sm-5 col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+               I want to check my data by Sending a NDA
+              </label>
+            </div>
+          </div>
+        </form>
+     
+          </div>
+          
+        </div>
+      </div>
+   
+</section>
+
+
+
+
+
+<!-------Footer Section    -->
+<!-- Remove the container if you want to extend the Footer to full width. -->
+
+
+
+<!-- Footer -->
+<div class="container my-5" data-aos="fade-up"
+data-aos-anchor-placement="center-bottom">>
+  
+<footer
+class="text-center text-lg-start text-white"
+style="background-color: #020d1c;"
+>
+<!-- Grid container -->
+<div class="container p-4 pb-0">
+<!-- Section: Links -->
+<section class="">
+<!--Grid row-->
+<div class="row">
+<!-- Grid column -->
+<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+  <h6 class="text-uppercase mb-4 font-weight-bold">
+    Company name
+  </h6>
+  <p>
+    Here you can use rows and columns to organize your footer
+    content. Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit.
+  </p>
+</div>
+<!-- Grid column -->
+
+<hr class="w-100 clearfix d-md-none" />
+
+<!-- Grid column -->
+<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+  <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+  <p>
+    <a class="text-white">MDBootstrap</a>
+  </p>
+  <p>
+    <a class="text-white">MDWordPress</a>
+  </p>
+  <p>
+    <a class="text-white">BrandFlow</a>
+  </p>
+  <p>
+    <a class="text-white">Bootstrap Angular</a>
+  </p>
+</div>
+<!-- Grid column -->
+
+<hr class="w-100 clearfix d-md-none" />
+
+<!-- Grid column -->
+<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+  <h6 class="text-uppercase mb-4 font-weight-bold">
+    Useful links
+  </h6>
+  <p>
+    <a class="text-white">Your Account</a>
+  </p>
+  <p>
+    <a class="text-white">Become an Affiliate</a>
+  </p>
+  <p>
+    <a class="text-white">Shipping Rates</a>
+  </p>
+  <p>
+    <a class="text-white">Help</a>
+  </p>
+</div>
+
+<!-- Grid column -->
+<hr class="w-100 clearfix d-md-none" />
+
+<!-- Grid column -->
+<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+  <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+  <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+  <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+  <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+  <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+</div>
+<!-- Grid column -->
+</div>
+<!--Grid row-->
+</section>
+<!-- Section: Links -->
+
+<hr class="my-3">
+
+<!-- Section: Copyright -->
+<section class="p-3 pt-0">
+<div class="row d-flex align-items-center">
+<!-- Grid column -->
+<div class="col-md-7 col-lg-8 text-center text-md-start">
+  <!-- Copyright -->
+  <div class="p-3">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/"
+       >MDBootstrap.com</a
+      >
+  </div>
+  <!-- Copyright -->
+</div>
+<!-- Grid column -->
+
+<!-- Grid column -->
+<div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+  <!-- Facebook -->
+  <a
+     class="btn btn-outline-light btn-floating m-1"
+     class="text-white"
+     role="button"
+     ><i class="fab fa-facebook-f"></i
+    ></a>
+
+  <!-- Twitter -->
+  <a
+     class="btn btn-outline-light btn-floating m-1"
+     class="text-white"
+     role="button"
+     ><i class="fab fa-twitter"></i
+    ></a>
+
+  <!-- Google -->
+  <a
+     class="btn btn-outline-light btn-floating m-1"
+     class="text-white"
+     role="button"
+     ><i class="fab fa-google"></i
+    ></a>
+
+  <!-- Instagram -->
+  <a
+     class="btn btn-outline-light btn-floating m-1"
+     class="text-white"
+     role="button"
+     ><i class="fab fa-instagram"></i
+    ></a>
+</div>
+<!-- Grid column -->
+</div>
+</section>
+<!-- Section: Copyright -->
+</div>
+<!-- Grid container -->
+</footer>
+<!-- Footer -->
+</div>
+<!-- End of .container -->
+
+ <!------Page Loader Start-->
+ <section id="preloader-section">
+  <div id="preloader">
+    <div id="ctn-preloader" class="ctn-preloader">
+      <div class="animation-preloader">
+        
+        <!-- Spinner -->
+        <div class="spinner"></div>
+        
+        <!-- Start: Text Loading -->
+        <div class="txt-loading">
+          <span data-text-preloader="F" class="letters-loading">F</span>
+          <span data-text-preloader="E" class="letters-loading">E</span>
+          <span data-text-preloader="A" class="letters-loading">A</span>
+          <span data-text-preloader="T" class="letters-loading">T</span>
+          <span data-text-preloader="U" class="letters-loading">U</span>
+          <span data-text-preloader="R" class="letters-loading">R</span>
+          <span data-text-preloader="E" class="letters-loading">E</span>
+          <span data-text-preloader="" class="letters-loading">&nbsp</span>
+          <span data-text-preloader="O" class="letters-loading">O</span>
+          <span data-text-preloader="P" class="letters-loading">P</span>
+          <span data-text-preloader="T" class="letters-loading">T</span>
+          <span data-text-preloader="I" class="letters-loading">I</span>
+          <span data-text-preloader="M" class="letters-loading">M</span>
+          <span data-text-preloader="I" class="letters-loading">A</span>
+          <span data-text-preloader="Z" class="letters-loading">Z</span>
+          <span data-text-preloader="A" class="letters-loading">A</span>
+          <span data-text-preloader="T" class="letters-loading">T</span>
+          <span data-text-preloader="I" class="letters-loading">I</span>
+          <span data-text-preloader="O" class="letters-loading">O</span>
+          <span data-text-preloader="N" class="letters-loading">N</span>
+          <br>
+          <br>
+          <span data-text-preloader="S" class="letters-loading">S</span>
+          <span data-text-preloader="E" class="letters-loading">E</span>
+          <span data-text-preloader="R" class="letters-loading">R</span>
+          <span data-text-preloader="V" class="letters-loading">V</span>
+          <span data-text-preloader="I" class="letters-loading">I</span>
+          <span data-text-preloader="C" class="letters-loading">C</span>
+          <span data-text-preloader="E" class="letters-loading">E</span>
+          <span data-text-preloader="S" class="letters-loading">S</span>
+        </div>
+        <!-- End: Text Loading -->
+
+      </div>
+
+      <!-- Start: Preloader sides - Model 1 -->
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+      <!-- End: Preloader sides - Model 1 -->
+
+    </div>
+  </div>
+</section>
+<!-- End: Preloader -->
+<!------Page Loader ENd-->
+
+
+
+<script>
+  AOS.init();
+</script>
+
+
+<script>
+ 
+</script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="assets/library/jquerycounter/jquery.counterup.min.js"></script>
+
+<!------Typed Js-->
+  <!-------Bootstrap JS------>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <!---------Custom JS------->
+  <script src="assets/js/script.js"></script>
+  <!--------Jquery--------->
+  <!---Poper JS-->
+  <script src="assets/library/poperjs/popper.min.js"></script>
+
+  <script>
+      $(document).ready(function(){
+            $(".animate").mouseenter(function(){
+              $(".f2").show();
+              $(".f1").hide();
+            });
+            $(".animate").mouseleave(function(){
+              $(".f1").show();
+              $(".f2").hide();
+            });
+
+            $(".animate2").mouseenter(function(){
+              $(".f4").show();
+              $(".f3").hide();
+            });
+            $(".animate2").mouseleave(function(){
+              $(".f3").show();
+              $(".f4").hide();
+            });
+            $(".animate3").mouseenter(function(){
+              $(".f6").show();
+              $(".f5").hide();
+            });
+            $(".animate3").mouseleave(function(){
+              $(".f5").show();
+              $(".f6").hide();
+            });
+ //Jquery counter Numbers
+ $(".animate4").mouseenter(function(){
+              $(".f8").show();
+              $(".f7").hide();
+            });
+            $(".animate4").mouseleave(function(){
+              $(".f7").show();
+              $(".f8").hide();
+            });
+
+            $(".animate5").mouseenter(function(){
+              $(".f10").show();
+              $(".f9").hide();
+            });
+            $(".animate5").mouseleave(function(){
+              $(".f9").show();
+              $(".f10").hide();
+            });
+            $(".animate6").mouseenter(function(){
+              $(".f12").show();
+              $(".f11").hide();
+            });
+            $(".animate6").mouseleave(function(){
+              $(".f11").show();
+              $(".f12").hide();
+            });
+ $(document).ready(function($) {
+  $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+  });
+});
+          })
+  </script>
+</body>
+
+</html>
